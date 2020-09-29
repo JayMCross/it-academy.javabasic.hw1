@@ -25,6 +25,6 @@ public class Task12 {
         int h = (m - min) / 60;
         int hours = h % 24;
         int days = (h - hours) / 24;
-        System.out.println(days+" "+hours+":"+min+":"+sec);
+        System.out.println(days + " " + hours + ":" + min + ":" + sec);
     }
 }
